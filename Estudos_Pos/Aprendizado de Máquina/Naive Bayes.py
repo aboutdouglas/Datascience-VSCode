@@ -18,6 +18,4 @@ gnb = GaussianNB()
 gnb.fit(X_train, y_train)
 
 # Realizando as previsões
-y_pred = gnb.predict(X_test)
-
-print(y_pred)
+y_pred = gnb.predict(X)

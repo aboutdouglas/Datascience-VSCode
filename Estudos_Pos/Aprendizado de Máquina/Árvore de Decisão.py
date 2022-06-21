@@ -18,6 +18,4 @@ dtc = DecisionTreeClassifier()
 dtc.fit(X_train, y_train)
 
 # realizando as previsões
-y_pred = dtc.predict(X_test)
-
-print(y_pred)
+y_pred = dtc.predict(X)
